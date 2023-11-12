@@ -1,28 +1,83 @@
 body{
+    box-sizing:border-box;
+    background:url(Lofoten.jpg);
+    background-size:cover;
     height:512px;
     width:1024px;
     border-style:solid;
-    background-color:grey;
-    border-color:black;
+    border-color:white;
     margin-left:auto;
     margin-right:auto;
-}
-header{
-    color:transparent;
-    font-style:bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-style:solid;
     display:flex;
     flex-wrap:wrap;
-    width:1024px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:1000;
+    }
+header,nav,main,aside,footer,.aside2,.aside3{
     align-items:center;
-    column-gap:150px ;
-    height:100px;
-}    
+    display:flex;
+    justify-content:center;
+    border-color:white;
+    border-style:solid;
+    } 
+header,nav{
+    width:1024px;
+    } 
+main,aside{
+    height:300px;
+    font-size:10px;
+    width:503px;
+    flex-wrap:wrap;
+    } 
+header,nav,main,aside,footer,.p2{
+     color:white;
+     } 
+header{
+    height:50px;
+    column-gap:150px;
+    }    
+nav{
+    height:80px;
+    font-size:50px; 
+    } 
+.p1 {
+    font-size:30px;;
+    text-shadow: 5px 5px 5px rgb(4, 47, 238);
+    color:rgb(247, 247, 38);
+    margin-top:-30px;
+    }   
+.p2 {
+    font-size:15px;
+    color:white;
+    margin-top:-120px;
+    }  
 a{
     text-decoration:none;
     color:white;
-}
+    }
 a:active{
     color:blue;
-}
+    }
+video{
+    width:502px;
+    height:300px;
+    }
+footer,.aside3{
+    flex-direction:column;
+    font-size:10px;
+    }
+.p3{
+    line-height:1px;
+    }
+footer,.aside2{
+    width:400px; 
+    height:55px;   
+   }
+.aside2{
+    font-size:20px;
+   }
+.aside3{
+    width:200px;   
+    height:55px;
+   }
+

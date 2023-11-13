@@ -2,6 +2,7 @@ body{
     box-sizing:border-box;
     background:url(Lofoten.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
     height:512px;
     width:1024px;
     border-style:solid;
@@ -12,8 +13,9 @@ body{
     flex-wrap:wrap;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:1000;
+    overflow-y:scroll;
     }
-header,nav,main,aside,footer,.aside2,.aside3{
+header,nav,main,aside,footer,.aside2,.aside3,.aside4{
     align-items:center;
     display:flex;
     justify-content:center;
@@ -62,8 +64,10 @@ video{
     width:502px;
     height:300px;
     }
-footer,.aside3{
+footer,.aside3,.aside4{
     flex-direction:column;
+    }
+footer,.aside3,.aside4{
     font-size:10px;
     }
 .p3{
@@ -76,8 +80,18 @@ footer,.aside2{
 .aside2{
     font-size:20px;
    }
-.aside3{
-    width:200px;   
+.aside3,.aside4{
+    width:97px;   
     height:55px;
+    font-size:35px; 
    }
-
+.a1,footer{
+    color:yellow;
+    text-shadow: 5px 5px 5px rgb(4, 47, 238);
+   }
+.a2{
+    color:blue;
+   }
+.a3{
+    color:white;
+   }

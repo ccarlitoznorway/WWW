@@ -1,12 +1,19 @@
+:root{
+     --main-color:white;
+     --secundary-color:blue;
+     --main-height:512px;
+     --main-width:1024px;
+    }
+
 body{
     box-sizing:border-box;
     background:url(Lofoten.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-    height:512px;
-    width:1024px;
+    height:var(--main-height);
+    width:var(--main-width);
     border-style:solid;
-    border-color:white;
+    border-color:var(--main-color);
     margin-left:auto;
     margin-right:auto;
     display:flex;
@@ -19,11 +26,11 @@ header,nav,main,aside,footer,.aside2,.aside3,.aside4{
     align-items:center;
     display:flex;
     justify-content:center;
-    border-color:white;
+    border-color:var(--main-color);
     border-style:solid;
     } 
 header,nav{
-    width:1024px;
+    width:var(--main-width);
     } 
 main,aside{
     height:300px;
@@ -32,7 +39,7 @@ main,aside{
     flex-wrap:wrap;
     } 
 header,nav,main,aside,footer,.p2{
-     color:white;
+     color:var(--main-color);
      } 
 header{
     height:50px;
@@ -50,15 +57,16 @@ nav{
     }   
 .p2 {
     font-size:15px;
-    color:white;
+    color:var(--main-color);
     margin-top:-120px;
     }  
 a{
     text-decoration:none;
-    color:white;
+    color:var(--main-color);
     }
 a:active{
-    color:blue;
+    color:greenyellow;
+    text-decoration:underline;
     }
 video{
     width:502px;
@@ -90,8 +98,8 @@ footer,.aside2{
     text-shadow: 5px 5px 5px rgb(4, 47, 238);
    }
 .a2{
-    color:blue;
+    color:var(--secundary-color);
    }
 .a3{
-    color:white;
+    color:var(--main-color);
    }

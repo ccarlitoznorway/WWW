@@ -29,7 +29,7 @@
             border-style:solid;
             } 
         header,nav{
-            width:var(--largest-width);
+            width:360px;
             } 
         main,aside{
             height:310px;
@@ -103,5 +103,106 @@
         .a3{
             color:var(--main-color);
            }
-
+@media screen and (min-width:760px) {
+    body {
+        box-sizing:border-box;
+        background:url(Lofoten.jpg);
+        background-size: auto;
+        background-size: cover;
+        background-repeat:no-repeat;
+        height:var(--largest-height);
+        width:760px;
+        border-style:solid;
+        border-color:var(--main-color);
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        flex-wrap:wrap;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:1000;
+        overflow-y:scroll;
+        }
+    header,nav,main,aside,footer,.aside2,.aside3,.aside4{
+        align-items:center;
+        display:flex;
+        justify-content:center;
+        border-color:var(--main-color);
+        border-style:solid;
+        } 
+    header,nav{
+        width:760px;
+        } 
+    main,aside{
+        height:310px;
+        width:371px;
+        flex-wrap:wrap;
+        } 
+    header,nav,main,aside,footer,.p2{
+         color:var(--main-color);
+         } 
+    header{
+        height:60px;
+        column-gap:30px;
+        font-size:20px;
+        }    
+    nav{
+        height:50px;
+        font-size:40px; 
+        } 
+    .p1 {
+        font-size:22px;;
+        text-shadow: 5px 5px 5px rgb(4, 47, 238);
+        color:rgb(247, 247, 38);
+        margin-top:-30px;
+        }   
+    .p2 {
+        font-size:15px;
+        color:rgb(128, 255, 99);
+        margin-top:-120px;
+        }  
+    a{
+        text-decoration:none;
+        color:var(--main-color);
+        }
+    a:active{
+        color:greenyellow;
+        text-decoration:underline;
+        }
+    video{
+        width:371px;
+        height:300px;
+        margin-top:-30px;
+        }
+    footer,.aside3,.aside4{
+        flex-direction:column;
+        }
+    footer,.aside3,.aside4{
+        font-size:10px;
+        }
+    .p3{
+        line-height:1px;
+        }
+    footer,.aside2{
+        width:300px; 
+        height:65px;   
+       }
+    .aside2{
+        font-size:20px;
+       }
+    .aside3,.aside4{
+        width:65px;   
+        height:65px;
+        font-size:35px; 
+       }
+    .a1,footer{
+        color:yellow;
+        text-shadow: 5px 5px 5px rgb(4, 47, 238);
+       }
+    .a2{
+        color:var(--secundary-color);
+       }
+    .a3{
+        color:var(--main-color);
+       }
+    }
     

@@ -1,37 +1,104 @@
+<!-- IN THE BOOTSTRAP CODE, STYLES HAVE TO BE WRITTEN IN THE HTML FILE-->
+
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css" />
-    <title>VISIT LOFOTEN</title>
-  </head>
-  <body>
-    <header> <a href="https://visitlofoten.com/en/"> LOFOTEN </a> <a href="#Hospedaje"> Hospedaje </a> <a href="#Cosas para hacer"> Cosas para hacer </a> <a href="#Lugares para visitar"> Lugares para visitar </a></header>
-    <nav> Lofoten </nav> 
-    <main> 
-        <p class ="p1"> BIENVENIDO A NUESTRO HOGAR </p>
-        <p class ="p2"> Lofoten es un lugar de contrastes. Es una maravilla natural con prósperas comunidades locales. Es el lugar donde las montañas se encuentran con el mar y donde las empresas locales se encuentran con la recreación. La magia distintiva de Lofoten radica en su capacidad de unir la vida local cotidiana con un interés global por su belleza natural.</p> 
-    </main>
-    <aside> 
-        <video controls>
-        <source src="Lofoten.mp4" type="video/mp4"> 
-    </aside> 
-    <aside class="aside2">
-        <p><a href="https://visitlofoten.com/en/" class="a1">LOFOTEN</a></p>
-    </aside>
-    <footer>   
-    <p class="p3"><a href="#Hospedaje">Hospedaje</a></p> 
-    <p class="p3"><a href="#Cosas para hacer">Cosas para hacer</a></p> 
-    <p class="p3"><a href="#Lugares para visitar">Lugares para vistar</a></p>
-    </footer>
-    <aside class="aside3">
-    <p><a href="https://www.facebook.com/lofoten.info" class="a2"><i class="fa fa-facebook fa-spin"></i></a></p> 
-    </aside>
-    <aside class="aside4">
-    <p><a href="https://www.instagram.com/lofoteninfo/" class="a3"><i class="fa fa-instagram fa-spin"></i></a></p>
-    </aside>
-  </body>
-  </html>
+<html lang="en">
+<head>
+  <title>Visit Lofoten</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav style="background-color:grey">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="accomodation/index.html"><p class="p1">Accomodation</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="thingstodo/index.html"><p class="p1">Things to do</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="places/index.html"><p class="p1">Places to visit</p></a>
+        </li>
+      </ul>
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1>VISIT LOFOTEN</h1>      
+          <p> The world’s most beautiful islands</p>
+        </div>
+      </div>
+    </nav>
+
+<main>
+<div class="container-fluid bg-3 text-center">    
+  <h3>Welcome to our home</h3><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <p class="p2">Aurora Borealis </p>
+      <img src="assets/mi-foto.jpg" class="img-responsive" style="width:420px;height:350px" alt="aurora">
+    </div>
+    <div class="col-sm-4"> 
+      <p class="p2">Sky touring in Lofoten</p>
+      <img src="ski.jpg" class="img-responsive" style="width:420px;height:350px" alt="ski">
+    </div>
+    <div class="col-sm-4">
+      <p class="p2">Ferry and boats to Lofoten</p>
+      <img src="ferry.jpg" class="img-responsive" style="width:420px;height:350px" alt="ferry">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="p2">Winter in Lofoten</p>
+      <img src="winter.jpg" class="img-responsive" style="width:420px;height:350px" alt="Winter in Lofoten">
+    </div>
+    <div class="col-sm-4"> 
+      <p class="p2">Spring in Lofoten</p>
+      <img src="spring.jpg" class="img-responsive" style="width:420px;height:350px" alt="Spring in Lofoten">
+    </div>
+    <div class="col-sm-4"> 
+      <p class="p2">Summer in Lofoten</p>
+      <img src="summer.jpg" class="img-responsive" style="width:420px;height:350px" alt="Summer in Lofoten">
+    </div>
+  </div>
+</div><br><br>
+</main>
+
+<aside> 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/TwZ8RYKn5MY?si=7QAkKtSB_X8LLu3a" title="Lofoten" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</aside>
+
+<footer class="container-fluid text-center">
+    <div class="card text-center">
+        <div class="card-header">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="accomodation/index.html"><p class="p1">Accomodation</p></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="thingstodo/index.html"><p class="p1">Things to do</p></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="places/index.html"><p class="p1">Places to visit</p></a>
+                </li>
+              </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Contact us:</h5>
+          <a href="https://www.facebook.com/lofoten.info" class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/lofoteninfo/" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+          <a href="https://web.whatsapp.com/" class="btn btn-primary"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+</footer>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
 
